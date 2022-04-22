@@ -72,3 +72,5 @@ def almost_generation(generation, chance=0.1):
     sample = __mutation(sample)
     generation.loc[sample.index] = sample[generation.columns].values
     return generation
+
+#move to gen_jupyter repo
